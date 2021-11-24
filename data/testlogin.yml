@@ -1,0 +1,24 @@
+
+# 登录测试用例
+---
+# 测试用例名称
+"case_name": "登录成功用例"
+# url地址
+"url": "/Login"
+# data
+"data":
+  username: "yinzixin"
+  password: "yinzixin123"
+# 期望结果
+"expect": "'code': 200"
+---
+# 测试用例名称
+"case_name": "登录失败用例"
+# url地址
+"url": "/Login"
+# data
+"data":
+  username: "yinzixin11"
+  password: "yinzixin123"
+# 期望结果
+"expect": "'code': 200"
